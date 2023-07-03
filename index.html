@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grey Owl Moving</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!--nav bar-->
+      <nav id="nav">
+        <div class="nav-center">
+          <!--nav header-->
+          <div class="nav-header">
+            <img src="./logo.png" alt="logo" class="logo" />
+            
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!--link-->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--banner-->
+      <div class="banner">
+        <div class="container">
+          <h1>Grey Owl</h1>
+          <h1>Moving Service</h1>
+          <p>Fast, Reliable, and Professional: Your Go-To Moving Experts</p>
+          <a href="#contact" class="scroll-link btn btn-white">
+            contact now
+          </a>
+          <p>(778) 256 - 1201 </p>
+        </div>
+      </div>
+    </header>
+   
+    <!--about-->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about us</h2>
+      </div>
+  <div class="about-container">
+    <div class="text-container">
+      <h3>Welcome to Grey Owl Moving Service</h3>
+      <p>Welcome to our website! My name is Ben, and I am the proud owner of a thriving moving company based in the picturesque Cranbrook and Nelson area of British Columbia. With almost five years of experience in the industry, I have built a reputation for delivering exceptional moving services. When you hire us, you may even catch a glimpse of my big, fluffy dog named George, who often accompanies me on jobs.</p>
+      <p>Our growing fleet of trucks and trailers, coupled with our dedicated team of skilled professionals, ensures that we can handle any moving challenge with ease. We take pride in our positive reviews and constantly strive to improve and exceeed customer expectations.</p>
+    </div>
+    <div class="image-container">
+      <img src="about_image.jpg" alt="About Us Image" />
+    </div>
+  </div>
+</section>
+
+    
+     <!--services-->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>our services</h2>
+      </div>
+      <div class="services-container">
+    <div class="service-box">
+      <div class="image-box">
+        <img src="service1.jpg" alt="Furniture/Appliance Delivery" />
+      </div>
+      <h3>Funiture/Appliance Delivery</h3>
+      <p>Efficient and hassle-free single-item appliance and furniture delivery.</p>
+    </div>
+    <div class="service-box">
+      <div class="image-box">
+        <img src="service2.jpg" alt="Dump Runs" />
+      </div>
+      <h3>Dump Runs</h3>
+      <p>Efficiently remove and dispose of unwanted items, debris, and waste from your property.</p>
+    </div>
+    <div class="service-box">
+      <div class="image-box">
+        <img src="service3.jpg" alt="Local Moves" />
+      </div>
+      <h3>Local Moves</h3>
+      <p>Seamless and stress-free to ensure a smooth transition as you relocate within the Cranbrook and Nelson area.</p>
+    </div>
+    <div class="service-box">
+      <div class="image-box">
+        <img src="service4.jpg" alt="Professional Labour" />
+      </div>
+      <h3>Professional Labour</h3>
+      <p>Dependable labourers, delivering skilled assistance for various tasks and projects.</p>
+    </div>
+     </section>
+
+     <!--contact-->
+    <section id="contact" class="section">
+      <div class="title">
+        <h2>contact now</h2>
+      </div>
+       <div class="contact-container">
+    <div class="input-container">
+      <input type="text" id="name" placeholder="Your Name" />
+    </div>
+    <div class="input-container">
+      <input type="email" id="email" placeholder="Your Email" />
+    </div>
+    <div class="input-container">
+      <textarea id="message" placeholder="Your Message"></textarea>
+    </div>
+    <button class="send-btn" onclick="composeEmail()">Send</button> <p id="contact-text">Or call (778) 256 - 1201</p>
+  </div>
+    </section>
+ 
+    <!--footer-->
+    <footer class="section">
+      <p>
+        copyright &copy; grey owl moving service <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <!--back to top button-->
+    <a href="#home" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
