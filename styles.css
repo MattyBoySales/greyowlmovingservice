@@ -64,13 +64,13 @@
 @media screen and (max-width: 807px) {
   .services-container {
     flex-direction: column;
-  }
+    align-items: center;
+    width: 70vw;
+  }  
 
-    
-
-
-  
-
+  .service-img {
+    height: 75vh;
+    }
   
 }
 /*
@@ -227,7 +227,15 @@ padding-bottom: 10vh;
 
 .service-box {
   text-align: center;
-  flex-basis:auto
+  flex-basis: auto;
+}
+
+.service-box-title {
+  font-size: 2.5vh;
+}
+
+.service-box-p {
+  font-size: 2.5vh;
 }
 
 .image-box {
@@ -236,15 +244,6 @@ padding-bottom: 10vh;
   padding: 10px;
   width: 100%;
 
-}
-
-.service-box h3 {
-  margin-top: 10px;
-  font-size: 2.5vh;
-}
-
-.service-box p {
-  margin-top: 5px;
 }
 
 
