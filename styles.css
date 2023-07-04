@@ -371,9 +371,7 @@ nav {
   color: var(--clr-secondary);
 }
 
-.logo {
-  height: 100px;
-}
+
 .links-container {
   height: 0;
   overflow: hidden;
@@ -405,10 +403,17 @@ header {
     url(./hero-bcg.jpeg) center/cover no-repeat;
 }
 .banner {
-  min-height: 100vh;
   display: grid;
   place-items: center;
   text-align: center;
+}
+
+.logo {
+  object-fit: cover;
+  top: 10px;
+  left: 10px;
+  height: 100px;
+  width: 150px;
 }
 .container h1 {
   color: var(--clr-white);
