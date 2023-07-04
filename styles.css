@@ -240,6 +240,7 @@ textarea {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+  margin-bottom: 10px;
 }
 .send-btn:hover {
   color: var(--clr-white);
@@ -414,6 +415,10 @@ header {
   left: 10px;
   height: 100px;
   width: 150px;
+}
+
+.container {
+  margin-top: 100px;
 }
 .container h1 {
   color: var(--clr-white);
