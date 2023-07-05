@@ -90,8 +90,8 @@ scrollLinks.forEach(function(link) {
 
     // Generate the mailto link
     var mailtoLink =
-      'mailto:mattysalesprogramming@gmail.com' +
-      '?subject=New form submission' +
+      'mailto:greyowlmoving@gmail.com' +
+      '?subject=Message from ' + (name) +
       '&body=Name: ' +
       encodeURIComponent(name) +
       '%0D%0AEmail: ' +
