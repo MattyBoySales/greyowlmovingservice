@@ -73,6 +73,23 @@
     }
   
 }
+
+@media only screen 
+  and (device-width: 390px) 
+  and (device-height: 844px) 
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }  
+
+  .service-img {
+    height: 75vh;
+    }
+}
+
 /*
 =============== 
 Fonts
